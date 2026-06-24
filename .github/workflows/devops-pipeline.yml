@@ -43,4 +43,4 @@ jobs:
       - name: Analizar Código en SonarCloud
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=ingenieria-devops -Dsonar.projectKey=springboot-app-devops -Dsonar.qualitygate.wait=true
+        run: mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=ingenieria-devops -Dsonar.projectKey=proyecto_springboot_usuarios -Dsonar.qualitygate.wait=true

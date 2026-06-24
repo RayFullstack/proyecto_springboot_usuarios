@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>com.devops</groupId>
-	<artifactId>springboot-app-devops</artifactId>
+	<artifactId>proyecto_springboot_usuarios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-app-devops</name>
 	<description>Proyecto DevOps con CI/CD y JaCoCo</description>
